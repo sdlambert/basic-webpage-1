@@ -11,6 +11,6 @@ https://github.com/schm0/
 My Github Pages repo can be found at:  
 https://github.com/schm0/schm0.github.io/
 
-And, soon, you can see my customized homepage at:
+You can see my homepage here:
 
 http://schm0.github.io/
