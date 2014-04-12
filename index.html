@@ -3,23 +3,26 @@
 <head>
 <meta charset="UTF-8">
 <title>Development and Design Home</title>
+<link rel="stylesheet" type="text/css" href="main.css">
 </head>
-<!-- v.01: Bare bones, minimal content, non-functioning links, ideas thrown on a page, no css. A beautiful beginning!  -->
-<body>
+<body id="main">
 <header>
-Development and Design Home - Scott Lambert
+<p id="header">Development and Design Home - Scott Lambert</p>
+	<nav id="top_nav">
+		<ul id="navlist">
+			<li class="active"><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Blog</a></li>
+			<li><a href="#">Portfolio</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</nav>
 </header>
-<nav>
-	<ul>
-		<li><a href="#">Home</a></li>
-		<li><a href="#">Portfolio</a></li>
-		<li><a href="#">Musings</a></li>
-		<li><a href="#">About</a></li>
-	</ul>
-</nav>
-<section>
-	<h3>Site Goals</h3>
-	<article>
+<section class="primary">
+	<header>
+		<h3>Site Goals</h3>
+	</header>
+	<article class="blogpost">
 		<!-- These are the initial site goals -->
 		<p><strong>04-11-2014 - Site Goals</strong></p>
 		<p>These are some quick goals I jotted down. They will probably change as we move forward. They are in no particular order.</p>
@@ -27,26 +30,37 @@ Development and Design Home - Scott Lambert
 			<li>Simple, quick-to-load and render</li>
 			<li>Uniform style</li>
 			<li>Add in features via:</li>
-			<li>Stuff I think is cool and can utilize immediately</li>
-			<li>Stuff I’m doing in school</li>
-			<li>Stuff I want to teach myself</li>
+			<ul>
+				<li>Stuff I think is cool and can utilize immediately</li>
+				<li>Stuff I’m doing in school</li>
+				<li>Stuff I want to teach myself</li>
+			</ul>
 			<li>Organized file structures (images, maybe js and css too?)</li>
 			<li>Learn and utilize github</li>
 			<li>Content will be:</li>
-			<li>School stuff (primarily for now)</li>
-			<li>Blog-style updates (static until I learn PHP)</li>
-			<li>Web Page progress, links to github</li>
-			<li>Hobbies</li>
-			<li>Portfolio</li>
-			<li>Contact/About Me</li>
-			<li>Archives for any/all above</li>
+			<ul>
+				<li>School stuff (primarily for now)</li>
+				<li>Blog-style updates (static until I learn PHP)</li>
+				<li>Web Page progress, links to github</li>
+				<li>Hobbies</li>
+				<li>Portfolio</li>
+				<li>Contact/About Me</li>
+				<li>Archives for any/all above</li>
+			</ul>
 			<li>Start off simple, build slowly</li>
 			<li>Utilize <a href="http://www.w3schools.com/html/html5_semantic_elements.asp">HTML5 semantic elements</a></li>
 		</ul>
 	</article>
-</section
-<footer>
-	This site was designed by Scott Lambert for educational and demonstrative purposes. &copy;2014
+</section>
+<footer class="center">
+	<ul id="footerlist">
+		<li><a href="#">Home</a></li>
+		<li><a href="#">About</a></li>
+		<li><a href="#">Blog</a></li>
+		<li><a href="#">Portfolio</a></li>
+		<li><a href="#">Contact</a></li>
+	</ul>
+	<p>This site was designed by Scott Lambert for educational and demonstrative purposes. &copy;2014</p>
 </footer>
 </body>
 </html>
