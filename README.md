@@ -40,8 +40,8 @@ These are some quick goals I jotted down. They will probably change as we move f
 
 #### 04-12-14 What I'm working on right now
 
-* Boxy nav menu with hover color ange
-* Make links in footer greyish, ylize
+* Boxy nav menu with hover color change
+* Make links in footer greyish, stylize
 * ???
 * graphics... how much do I want to do?
 
