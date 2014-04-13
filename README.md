@@ -40,6 +40,7 @@ These are some quick goals I jotted down. They will probably change as we move f
 
 #### 04-12-14 What I'm working on right now
 
+* ~~Get menu and sections lined up~~
 * Boxy nav menu with hover color change
 * Make links in footer greyish, stylize
 * ???
